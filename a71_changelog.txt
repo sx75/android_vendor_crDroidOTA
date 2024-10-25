@@ -4,6 +4,16 @@ Device: Samsung Galaxy A71 (a71)
 Device maintainer: Haky86
 
 ====================
+     10-25-2024
+====================
+
+   * Fix deep sleep.
+   * Upstream kernel to 4.14.336.
+   * Sync device trees with the latest changes from LineageOS.
+   * Security Patches: October 2024.
+   * Sync the crDroid sources with the latest changes [Sync Date: 24/10/2024].
+
+====================
      09-10-2024
 ====================
 
