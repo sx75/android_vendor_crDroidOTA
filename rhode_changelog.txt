@@ -6,6 +6,13 @@ Device maintainer: Jay (Dhruv)
 Highlights & Device Specific Changes:
 
 ===================
+25th October, 2024
+===================
+* upstreamed kernel.
+* added tweaks for better performance.
+* fixed freeze issue in some scenario.
+
+===================
 05th October, 2024
 ===================
 * minor bug fixes and improvement.
