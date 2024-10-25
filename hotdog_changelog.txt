@@ -3,6 +3,11 @@ Build type: Beta
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20241025 =====
+* Rework kernel
+* Other improvements
+* Updated translations
+
 ===== 20241014 =====
 * Initial crDroid 10.9 release
 * October security patches
