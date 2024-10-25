@@ -1,8 +1,13 @@
+
 Highlights & Device Specific Changes:
 Build type: Monthly
 Device: OnePlus 7 (guacamoleb)
-Device maintainer: Ivy (Lost-Entrepreneur439)
+Device maintainer: Nora (eepymeowers)
 Required firmware: OxygenOS 12
+
+===== 10-24-2024 =====
+- Update to crDroid 10.9
+- Maintainership transferred from Ivy (Lost-Entrepreneur439) to Nora (eepymeowers)
 
 ===== 09-15-2024 =====
 - Update to crDroid 10.8.
