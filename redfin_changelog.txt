@@ -5,6 +5,14 @@ Device maintainer: Bobby Panarisi (xda:306bobby git:306bobby-android)
 
 Highlights & Device Specific Changes:
 ====================================
+26th October, 2024
+==================
+ROM changes:
+*October 2024 ASB
+*Misc. improvements
+*Kernel updated to latest 4.19 branch
+*NOTE: DT2W feature flags are removed until proper support is obtained.
+===================================
 8th September, 2024
 ==================
 ROM changes:
