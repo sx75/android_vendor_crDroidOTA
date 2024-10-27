@@ -7,6 +7,15 @@ Required firmware: MIUI (Global): V14.x
 Highlights & Device Specific Changes:
 
 ==================================
+27th October, 2024
+
+* Added customization to select action when swiping up from bottom corner (crdroid > navigation)
+* Added customization to hide carrier on lockscreen (crdroid > lockscreen)
+* vayu: Reworked device trees, added missing blobs, memory tweaks
+* vayu: Upstreamed kernel to v4.14.353 stable release
+* vayu: Compiled kernel with clang 19.0.1
+
+==================================
 16th October, 2024
 
 * Fixed crash with pulse visualizer in some instances
