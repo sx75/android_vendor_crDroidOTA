@@ -7,6 +7,16 @@ Required firmware: MIUI (Global): V14.x
 Highlights & Device Specific Changes:
 
 ==================================
+27th October, 2024
+
+* Added customization to select action when swiping up from bottom corner (crdroid > navigation)
+* Added customization to hide carrier on lockscreen (crdroid > lockscreen)
+* sweet: Reworked device trees, added missing blobs
+* sweet: Upstreamed kernel to v4.14.353 stable release
+* sweet: Compiled kernel with clang 19.0.1
+* sweet: Updated for low voice on mic when using speaker for voip calls
+
+==================================
 13th October, 2024
 
 * Android October 2024 Security Update
