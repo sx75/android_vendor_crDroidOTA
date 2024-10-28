@@ -1,6 +1,127 @@
 ====================
+     10-28-2024
+====================
+
+   * frameworks/base
+6d8290308 SystemUI: Allow chroma & luminance to affect secondary colors [1/2]
+
+   * packages/apps/crDroidSettings
+58261ec crdroid: Allow chroma & luminance to affect secondary colors [2/2]
+
+====================
+     10-27-2024
+====================
+
+   * frameworks/base
+c5d0aec94 SystemUI: Add ability to hide carrier name on lockscreen [1/2]
+
+   * packages/apps/crDroidSettings
+8dc30d4 crdroid: Add ability to hide carrier name on lockscreen [2/2]
+
+====================
+     10-26-2024
+====================
+
+   * frameworks/base
+6454550ca PixelPropsUtils: Fix parsing for TIME field
+354001800 PhoneWindowManager: Add vibration when using physical camera button gesture
+e85a98efb base: Allow to customize bottom corner swipe up action [2/4]
+
+   * hardware/qcom-caf/sm8150/display
+c9997fe Merge tag 'LA.UM.9.1.r1-16400-SMxxx0.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/display into 14.0-caf-sm8150
+
+   * hardware/xiaomi
+7bc51fe Drop powershare HIDL
+
+   * lineage-sdk
+ac2934e lineage-sdk: Allow to customize bottom corner swipe up action [3/4]
+
+   * packages/apps/Launcher3
+c4a8b6d Launcher3: Allow to customize bottom corner swipe up action [1/4]
+
+   * packages/apps/crDroidSettings
+fb66434 crDroidSettings: Allow to customize bottom corner swipe up action [4/4]
+
+====================
+     10-25-2024
+====================
+
+   * packages/apps/Dialer
+a9d8b3da New Crowdin updates (#124)
+e71cf9ce Update Crowdin configuration file
+16ec40ba Dialer: Revamp swipes to new functionalities
+efd26e0b Dialer: Fix in-call RTT banner item colors
+1c849dfd Dialer: Introduce swipe to call
+415d73f0 Dialer: Fix statusbar on light theme
+7e343880 Dialer: Properly set navigation bar theme
+6b079c14 Fix unnatural animation while move up "Swipe down to reject"
+08ab269c Dialer: Rework empty illustrations
+5885aaf3 Dialer: Move Sensor settings to Other settings
+86ccb3da Dialer: Add toggle for post call snackbar
+cf322b88 Dialer: Add ability to set full screen photos for calls
+e7d225eb Dialer: Fix LetterTileDrawable for all languages
+98216867 InCallUI: SmartMute
+076cd3a5 Dialer: Use system fonts
+1cc49428 Fix NPE in InCallPresenter
+5e47dd0c Fix to show voice mail notification icon for multi-sim
+ebd392b0 Dialer: Add option to disable proximity sensor
+8a76d60d Dialer: CallLogFragment: Move Un-registering call log observer to destroy
+0a0427ee Dialer: Enable auto call recording for all
+16d1b90c Autostart call recording implementation
+63c2ad40 Dialer: Make recording names sortable
+ab349f71 Dialer: Enable call recording for all
+d4b6889f Dialer: Remove unused drawable declaration
+90be278c Set use_resource_processor: false for Dialer
+
+====================
+     10-24-2024
+====================
+
+   * external/chromium-webview/prebuilt/arm
+3a32a73 Update Chromium Webview arm prebuilt to 130.0.6723.73
+
+   * external/chromium-webview/prebuilt/arm64
+a264c13 Update Chromium Webview arm64 prebuilt to 130.0.6723.73
+
+   * external/chromium-webview/prebuilt/x86
+66835db Update Chromium Webview x86 prebuilt to 130.0.6723.73
+
+   * external/chromium-webview/prebuilt/x86_64
+b8bf297 Update Chromium Webview x86_64 prebuilt to 130.0.6723.73
+
+====================
+     10-23-2024
+====================
+
+   * external/chromium-webview/patches
+9108113 Update Chromium Webview to 130.0.6723.73
+
+====================
+     10-22-2024
+====================
+
+   * packages/apps/AudioFX
+74e43b3 AudioFX: Convert tests to Android.bp
+
+   * packages/apps/Glimpse
+9f8dd1b Glimpse: Add android.intent.category.DEFAULT to main intent filter
+2fe9b54 Glimpse: Replace deprecated .reuse/dep5 with REUSE.toml
+
+   * packages/apps/Jelly
+7f10fb5 Jelly: Replace deprecated .reuse/dep5 with REUSE.toml
+
+   * packages/apps/Nfc
+9ea91f85 NativeNfcTag: Set minimum threshold for watchdogTimeout to 5000
+
+   * packages/apps/Recorder
+cd59833 Recorder: Replace deprecated .reuse/dep5 with REUSE.toml
+
+====================
      10-21-2024
 ====================
+
+   * prebuilts/clang/host/linux-x86/clang-latest
+22257f1 clang 19.0.1 (based on r536225) from build 12519410
 
 ====================
      10-20-2024
@@ -111,11 +232,6 @@ be1ec7236 Keep reading until end-of-file in reading procfs
 e16a148c9 Simplify POSIX capabilities to bitmask
 79f78232d Add metaData null check in isRequiredAppDeclaredInMetadata
 59ecd6935 HDMICEC: handle hdmi_control help command
-86baa1cbb Fixed device restart caused by starting Activity under split-screen root task.
-81652446c Fingerprint: BugFix: add null judgement
-334e305eb Fix null dereference in WMShell transition
-2e1d14437 Fix potential NPE when dumping child nodes
-bdf2e916f Synchronize listeners in ConfigurationControllerImpl
 
    * system/netd
 30acecc netd: restrict DNS names
@@ -204,204 +320,4 @@ a0a54ba5 soong: Allow flock for changelog generation
    * system/netd
 dbc81b7 VPN-covered DNS traffic may not fall through
 3356838 Revert "Prevent DNS traffic from bypassing lockdown VPNs"
-
-====================
-     10-18-2024
-====================
-
-   * hardware/qcom-caf/sm8450/display
-f3207cf9 composer: Separate rc and xml from service
-
-   * packages/apps/ExactCalculator
-7f55495 ExactCalculator: Set sdk_version to 34
-
-   * packages/apps/Glimpse
-718ed7c Glimpse: Sort items based on modification time
-
-   * packages/apps/Recorder
-19e2baa Revert "Recorder: Use medium localized datetime for filename"
-
-   * packages/modules/Connectivity
-c83ae4877 Revert "Tethering: Fix allow clients to use VPN toggle post QPR2"
-
-   * vendor/lineage
-0834352 overlay: SimpleDeviceConfig: Adjust values for SeedVault Backup usage
-76efcbe overlay: Use autofill compatibility mode for browsers
-f887bc5 kernel: Add `{recovery}kernelconfig`
-0fd2253 kernel: Clean headers installed in uapi/asm as well
-5621618 config: common: Build nano_recovery
-
-====================
-     10-17-2024
-====================
-
-   * device/xiaomi/sm8350-common
-d51a1e6 sm8350-common: Enable screen off udpfs support
-ec66187 sm8350-common: Add crdroid dependencies
-
-   * external/libncurses
-0ad6497 libncurses: Add recovery variant
-
-   * hardware/qcom-caf/sm8150/display
-d3fcca4 Merge branch 'lineage-21.0-caf-sm8150' of https://github.com/LineageOS/android_hardware_qcom_display into 14.0-caf-sm8150
-
-   * packages/apps/Aperture
-df5445e Automatic translation import
-
-   * packages/apps/DeskClock
-5016267 Automatic translation import
-
-   * packages/apps/Glimpse
-283ddca Automatic translation import
-
-   * packages/apps/Recorder
-fe36556 Automatic translation import
-
-   * packages/resources/devicesettings
-83edeed Automatic translation import
-
-   * vendor/crowdin
-055a7fa Automatic translation import
-
-   * vendor/lineage
-6e151c8 apn: Add Congstar (Telekom)
-b931ceb apn: Add Truphone (Saily)
-
-   * vendor/xiaomi/sm8350-common
-811ffa2 sm8350-common: Enable ELF checks for libwfdmmsrc_proprietary
-67bda29 sm8350-common: Import missing 64-bit wfd lib
-d0fa91b sm8350-common: Import missing 32-bit blobs
-b77f1ce sm8350-common: Decommonize citsensorservice
-438aa9b sm8350-common: Patch libwfdservice to resolve duplicate dependencies
-c89e310 sm8350-common: Disable ELF checks for certain libraries
-da5e369 sm8350-common: skip dependencies which aren't defined in .bp
-d4c787f sm8350-common: fix QCOM WFD ELF checks
-321054b sm8350-common: fix vendor.qti.imsrtpservice@3.0 ELF checks
-7a56d03 sm8350-common: fix com.qualcomm.qti.dpm.api@1.0 ELF checks
-ee28ab2 sm8350-common: Enable elf checks
-8073583 sm8350-common: Add vendor soong imports to extract
-93bd13c sm8350-common: Build xiaomi-telephony-stub
-
-====================
-     10-16-2024
-====================
-
-   * device/xiaomi/venus
-97caaac venus: Drop unnecessary fingerprint HAL dependency
-76af327 venus: Switch to source-built fx.tunnel interface
-8c0fa26 venus: Decommonize citsensorservice
-
-   * external/nano
-30d82ca nano: Add recovery variant
-
-   * vendor/xiaomi/venus
-fc1ed29 venus: Switch to source-built fx.tunnel interface
-8d4604b venus: Decommonize citsensorservice
-
-====================
-     10-15-2024
-====================
-
-   * device/xiaomi/venus
-d1f1711 venus: Fix soname
-
-   * vendor/xiaomi/venus
-2d47f0e venus: Fix soname
-0b22c79 venus: Enable elf checks
-2001f22 venus: Updated from venus OS1.0.6.0.UKBMIXM
-
-====================
-     10-14-2024
-====================
-
-   * device/xiaomi/venus
-7db86f0 venus: Updated from venus OS1.0.6.0.UKBMIXM
-
-   * hardware/qcom/sdm845/display
-49dfea6 Convert libgrallocutils to Soong.
-03a8b67 Convert some display libraries to blueprint
-
-   * hardware/qcom/sdm845/gps
-cad27c5 Android mk to bp conversion
-a5a8fac Move sdm845 files to the top folder
-a0b92f4 Remove non-sdm845 source
-
-   * hardware/xiaomi
-40728c3 interfaces: fx.tunnel: Fixup
-
-   * tools/extract-utils
-5caad68 Add licenses
-5f3f34f Switch to SPDX copyright headers
-
-====================
-     10-13-2024
-====================
-
-   * android
-9e80cbf Merge 'lineage-21.0' into 14.0
-
-   * lineage-sdk
-5355f8b Merge 'lineage-21.0' into 14.0
-
-   * packages/apps/Contacts
-15e678b4 Merge 'lineage-21.0' into 14.0
-
-   * packages/apps/Dialer
-12c3f851 Merge 'lineage-21.0' into 14.0
-
-   * packages/apps/Launcher3
-39a5567 New Crowdin updates (#441)
-
-   * packages/apps/LineageParts
-35ed50e Disable unused components
-f5ca888 Remove unused Network Traffic fragment
-f71b1a2 Use ListPreference for charging control fragment
-1ec0a57 Update color mode preview from Android 12
-e779a66 Uitilities: Fix inaccess Build.DATE
-89be20c Kill redundant search fun party
-efda350 Make trust interface less boring
-8edbbd7 Add initial crDroid stats support
-e5741ab stats: Mod version switched to crdroid version
-2f674f8 Ship as crDroid based on LOS
-
-   * packages/apps/Messaging
-ce8ae5c Merge 'lineage-21.0' into 14.0
-
-   * packages/apps/Settings
-83f4d51775 Merge 'lineage-21.0' into 14.0
-
-   * packages/apps/ThemePicker
-91326e88 Merge 'lineage-21.0' into 14.0
-
-   * packages/apps/Updater
-8b6308a Catch exceptions when enabling performance mode
-45dd491 New Crowdin updates (#76)
-a69bd03 Update Crowdin configuration file
-17861e0 Revert "Updater: layout: activity_updates: add spacing.."
-a443e57 Updater: Update parsed info whenever data is refreshed
-220f81a Updater: Add support links and some more info
-a6f5c65 Updater: Use headline font for activity header
-b051863 Updater: Nuke Lineage's website on installation blocked dialog
-589ad06 Updater: Initial adaption for crdroid
-d44602a Updater: Change package name to avoid conflict
-58c8b46 Ship as crDroid based on LOS
-
-   * packages/apps/crDroidSettings
-c177297 crdroid: QuickSettings: Use context instead referring activity directly
-14d2e23 crdroid: Update network traffic settings to use main switch
-3f5091f crdroid: Allow to toggle BT directly with Bluetooth tile [2/2]
-d227116 New Crowdin updates (#1179)
-
-   * packages/inputmethods/LatinIME
-f6e2a26 Merge 'lineage-21.0' into 14.0
-
-   * packages/modules/Bluetooth
-69ca3482c Merge 'lineage-21.0' into 14.0
-
-   * packages/modules/Wifi
-116f39daa Merge 'lineage-21.0' into 14.0
-
-====================
-     10-12-2024
-====================
 
