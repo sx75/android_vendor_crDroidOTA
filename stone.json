@@ -4,14 +4,14 @@
 			"maintainer": "Ishaan",
 			"oem": "Redmi",
 			"device": "Note 12 5G/Poco X5",
-			"filename": "crDroidAndroid-14.0-20241021-stone-v10.9.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/stone/10.x/crDroidAndroid-14.0-20241021-stone-v10.9.zip/download",
-			"timestamp": 1729516600,
-			"md5": "1810de39dadfc1b5f6bac57e1c9bcd65",
-			"sha256": "11387063ea9264cfd72871d3700f03c825b1f2b549cf1517229ad86fd3a3cfab",
-			"size": 1156417127,
+			"filename": "crDroidAndroid-14.0-20241028-stone-v10.9.zip",
+			"download": "https://sourceforge.net/projects/crdroid/files/stone/10.x/crDroidAndroid-14.0-20241028-stone-v10.9.zip/download",
+			"timestamp": 1730123108,
+			"md5": "1ccfc67b2ca659439ca615ba897fa511",
+			"sha256": "ac572929de05704ba6372459c25f2056dc0eb3434007b797d2d713570ededbda",
+			"size": 1146407002,
 			"version": "10.9",
-			"buildtype": "Monthly",
+			"buildtype": "Weekly",
 			"forum": "https://xdaforums.com/t/rom-android-14-redmi-note-12-5g-poco-x5-5g-crdroid-v10-official.4646850/",
 			"gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/Android-14/",
 			"firmware": "",
@@ -19,10 +19,10 @@
 			"bootloader": "",
 			"recovery": "https://sourceforge.net/projects/crdroid/files/stone/10.x/recovery/",
 			"paypal": "",
-			"telegram": "",
+			"telegram": "https://t.me/+HI11neGkqB4zZjll",
 			"dt": "https://github.com/crdroidandroid/android_device_xiaomi_stone.git",
 			"common-dt": "",
-			"kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_stone.git"
+			"kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sm6375"
 		}
 	]
 }

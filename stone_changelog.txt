@@ -6,6 +6,15 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+===== 28-10-2024 =====
+
+* Synced with latest crDroidAndroid source code
+* Switched to OSS kernel [Known issues: Glitchy ViewFinder while using the camera "harmless", Bluetooth microphone routing]
+* stone: Update blobs to moonstone V816.0.10.0.UMPMIXM
+* Added customization to select action when swiping up from bottom corner (crdroid > navigation)
+* Added customization to hide carrier on lockscreen (crdroid > lockscreen)
+* Improved overall stability and performance
+
 ===== 21-10-2024 =====
 
 * Synced with latest crDroidAndroid source code
