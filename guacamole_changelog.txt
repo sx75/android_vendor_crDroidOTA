@@ -3,6 +3,13 @@ Build type: Weekly
 Device: OnePlus 7 PRO (guacamole)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 28 October, 2024 =====
+
+- Fixed crash with pulse visualizer in some instances
+- Added customization to select action when swiping up from bottom corner (crDroid Settings > Navigation)
+- Added customization to hide carrier on lockscreen (crDroid Settings > Lockscreen)
+- Updated translations
+
 ===== 13 October, 2024 =====
 
 - Initial crDroid 10.9 release
