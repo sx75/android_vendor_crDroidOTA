@@ -113,3 +113,12 @@ Device maintainer: Zed (Zed9K)
 ===== <26th of October 2024> =====
 - Upstream to latest changes by crDroid
 - Bug fixes & improvements
+
+===== <29th of October 2024> =====
+- SystemUI: Allow chroma & luminance to affect secondary colors
+- SystemUI: Add ability to hide carrier name on lockscreen
+- Fix parsing for TIME field
+- Add vibration when using physical camera button gesture
+- Allow to customize bottom corner swipe up action
+- A lot of stuff related to the dialer
+- Upstream to latest changes by crDroid
