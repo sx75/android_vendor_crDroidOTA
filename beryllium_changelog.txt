@@ -3,6 +3,12 @@ Build type: Weekly
 Device: Pocophone F1 (beryllium)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 02 November, 2024 =====
+
+- Fixed Play Integrity (soon to die I guess)
+- Added option to allow tuning extra padding for statusbar
+- Updated translations
+
 ===== 28 October, 2024 =====
 
 - Fixed crash with pulse visualizer in some instances
