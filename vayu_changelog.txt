@@ -7,6 +7,12 @@ Required firmware: MIUI (Global): V14.x
 Highlights & Device Specific Changes:
 
 ==================================
+1st November, 2024
+
+* Fixed failing basic SafetyNet attestation without root (again)
+* Added customization to modify statusbar layout padding (crdroid > statusbar)
+
+==================================
 27th October, 2024
 
 * Added customization to select action when swiping up from bottom corner (crdroid > navigation)
