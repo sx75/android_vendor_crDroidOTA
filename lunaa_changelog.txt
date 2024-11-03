@@ -4,6 +4,16 @@ Device: Realme GT Master edition
 Device maintainer: Sid 🖤
 Required firmware: Rui F.18 [RMX3360_13.1.0.161(EX01)]
 
+===== 02 November, 2024 =====
+
+- Fixed Play Integrity (soon to die I guess)
+- Added option to allow tuning extra padding for statusbar
+- Updated translations
+- Fixed crash with pulse visualizer in some instances
+- Added customization to select action when swiping up from bottom corner (crDroid Settings > Navigation)
+- Added customization to hide carrier on lockscreen (crDroid Settings > Lockscreen)
+- Updated translations
+
 =================================
 21th October, 2024
 
