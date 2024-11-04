@@ -118,3 +118,7 @@ Device maintainer: Zed (Zed9K)
 - Allow to customize bottom corner swipe up action
 - A lot of stuff related to the dialer
 - Upstream to latest changes by crDroid
+
+===== <4th of November 2024> =====
+- Upstream to latest changes by crDroid
+- Bug fixes
