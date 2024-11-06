@@ -7,6 +7,12 @@ Required firmware: MIUI (Global): V14.x
 Highlights & Device Specific Changes:
 
 ==================================
+6th November, 2024
+
+* Apply custom statusbar layout padding to lockscreen statusbar as well
+* Misc trivial updates
+
+==================================
 1st November, 2024
 
 * Fixed failing basic SafetyNet attestation without root (again)
