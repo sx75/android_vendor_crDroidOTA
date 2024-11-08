@@ -3,6 +3,17 @@ Build type: Monthly
 Device: POCO F3 (alioth)
 Device maintainer: raystef66
 
+===== 08-11-2024 =====
+
+* Added custom statusbar layout padding to lockscreen statusbar
+* Fixed failing basic SafetyNet attestation
+* Added customization to modify statusbar layout padding
+* Added customization to select action when swiping up from bottom corner
+* Added customization to hide carrier on lockscreen
+* Synced with latest sources
+* Updated translations
+* Some other fixes and improvements
+
 ===== 18-10-2024 =====
 
 * crDroid 10.9 release
