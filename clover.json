@@ -19,7 +19,7 @@
 			"bootloader": "",
 			"recovery": "https://sourceforge.net/projects/crdroid/files/clover/10.x/recovery/twrp-3.7.1_12-1-clover-4.4-th3fron3.img/download",
 			"paypal": "",
-			"telegram": "",
+			"telegram": "https://t.me/crdroid_mi_pad_4",
 			"dt": "https://github.com/crdroidandroid/android_device_xiaomi_clover",
 			"common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sdm660-common",
 			"kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sdm660"
