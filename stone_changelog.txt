@@ -6,6 +6,12 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+===== 06-11-2024 =====
+
+* Synced with latest crDroidAndroid source code
+* Shipped with stock kernel
+* Added customization to set custom padding for statusbar layout
+
 ===== 28-10-2024 =====
 
 * Synced with latest crDroidAndroid source code
