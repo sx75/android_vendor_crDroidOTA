@@ -4,6 +4,12 @@ Device: Redmi Note 10 (mojito)
 Device maintainer: Anush02198
 
 ====================
+    10-11-2024
+====================
++ Added few enchancement from Westcoast XX
++ Drop RapidGC from powerhint
+
+====================
     22-09-2024
 ====================
 + sm6150-common: Fix offending entries
