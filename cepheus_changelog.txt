@@ -4,6 +4,14 @@ Device: Xiaomi MI9 (cepheus)
 Device maintainer: raystef66
 Required firmware: V1x2.5.6.0.RFACNXM
 
+===== 15.11.2024 =====
+
+* Updated to sec. patch level 2024.11
+* UdfpsAnimation: Address memory leaks and improvements
+* Synced with latest sources
+* Updated translations
+* Some other fixes and improvements
+
 ===== 08.11.2024 =====
 
 * Added custom statusbar layout padding to lockscreen statusbar
