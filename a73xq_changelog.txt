@@ -3,6 +3,10 @@ Build type: Weekly
 Device: Samsung A73 5G (a73xq)
 Device maintainer: alqix
 
+===== 17 November, 2024 =====
+- Update to crDroid 10.10
+- November security patch
+
 ===== 14 October, 2024 =====
 - Update to crDroid 10.9
 - October security patch
