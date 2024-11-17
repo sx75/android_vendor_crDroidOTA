@@ -1,7 +1,22 @@
 Highlights & Device Specific Changes:
-Build type: Beta
+Build type: Monthly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
+
+===== 20241117 =====
+- Android November 2024 Security Update
+- Allow setting upto 6 QS columns in landscape
+- Rework network traffic settings
+- Added option to allow tuning extra padding for statusbar
+- Fixed crash with pulse visualizer in some instances
+- Added customization to select action when swiping up from bottom corner (crDroid Settings > Navigation)
+- Added customization to hide carrier on lockscreen (crDroid Settings > Lockscreen)
+- Apply custom statusbar layout padding to lockscreen statusbar as well
+- UdfpsAnimation: Address memory leaks and improvements
+- SystemUI: Fix colored icons going blank
+- QS Customizations: Fix side scrolling issues with vertical/A11 tile layout
+- Updated translations
+- Misc trivial fixes
 
 ===== 20241025 =====
 * Rework kernel
