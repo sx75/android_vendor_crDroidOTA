@@ -5,6 +5,15 @@ Device maintainer: Ionut Gherman (ionutgherman)
 
 Highlights & Device Specific Changes:
 =====================================
+17th November, 2024
+===================
+ROM changes:
+• Android November 2024 Security Update
+• Allow setting upto 6 QS columns in landscape
+• Rework network traffic settings
+• Misc trivial fixes
+• EOL A14 build
+==================
 03th October, 2024
 ==================
 ROM changes:
