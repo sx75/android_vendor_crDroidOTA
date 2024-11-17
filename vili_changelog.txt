@@ -2,6 +2,15 @@ Build type: Signed
 Device: Xiaomi Mi 11T Pro (vili)
 maintainer: swiitchOFF
 
+Changelog:18/11/2024
+- Source upstream to 10.10
+- Switched to XiaomiDolby interface
+- Add dolby volume listener
+- Add support for Dolby spatial audio
+- Sync with MIUI CN 14 dolby effects
+- Fixed Dolby with Bluetooth
+- Improved performance and system stability
+
 Changelog:19/10/2024
 - Source upstream to 10.9
 - Supports latest TWRP/OFOX
