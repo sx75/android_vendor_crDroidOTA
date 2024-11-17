@@ -1,9 +1,27 @@
 Highlights & Device Specific Changes:
-Build type: Weekly
+Build type: Monthly
 Device: OnePlus 11 5G (salami)
 Device maintainer: Pranav Vashi (neobuddy89)
 
 Highlights & Device Specific Changes:
+
+==================================
+17th November, 2024
+
+* Android November 2024 Security Update
+* Allow setting upto 6 QS columns in landscape
+* Rework network traffic settings
+* Fixed failing basic SafetyNet attestation without root (again)
+* Added customization to modify statusbar layout padding (crdroid > statusbar)
+* Added customization to select action when swiping up from bottom corner (crdroid > navigation)
+* Added customization to hide carrier on lockscreen (crdroid > lockscreen)
+* Fixed crash with pulse visualizer in some instances
+* Updated pocket mode detection layout
+* Fixed issue that prevented boot on clean flash
+* Fixed launcher hotseat icons overflowing in landscape mode
+* Improved theming for light mode on quick settings
+* Various other fixes and improvements
+* salami: Updated blobs and firmware from OOS 11.C.59
 
 ==================================
 6th October, 2024
