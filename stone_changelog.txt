@@ -2,9 +2,20 @@
 Highlights & Device Specific Changes:
 =====================================
 
-Build type: Weekly
+Build type: Monthly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
+
+===== 17-11-2024 =====
+
+* Synced with latest crDroidAndroid source code
+* November 2024 security patches
+* Allow setting upto 6 QS columns in landscape
+* Rework network traffic settings
+* SystemUI: Fix colored icons going blank
+* QS Customizations: Fix side scrolling issues with vertical/A11 tile layout
+* Updated translations
+* Improved overall stability and performance
 
 ===== 06-11-2024 =====
 
