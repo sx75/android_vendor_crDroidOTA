@@ -1,7 +1,17 @@
 Highlights & Device Specific Changes:
-Build type: Weekly
+Build type: Monthly
 Device: Pocophone F1 (beryllium)
 Device maintainer: Lup Gabriel (gwolfu)
+
+===== 16 November, 2024 =====
+
+- Initial crDroid 10.10 release
+- November security patches
+- UdfpsAnimation: Address memory leaks and improvements
+- QuickSpaceView: Prevent memory leaks
+- MemInfoView: Fix free memory calculation
+- Some other small changes
+- Updated translations
 
 ===== 02 November, 2024 =====
 
