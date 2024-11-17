@@ -4,6 +4,33 @@ Device: Nintendo Switch (nx_tab)
 Device maintainer: Ivy (Lost-Entrepreneur439)
 Required firmware: Hekate 6.1.0
 
+===== 11-17-2024 =====
+- Update to crDroid 10.10
+- nx_tab Make manufacturer match nx target
+- nx: uscript: Correct mac addr behavior
+- uscript: don't print cec disable to screen
+- nx: Drop u-boot form dependencies
+- bl: update uboot version
+- nx: Adjust override prop key names
+- Revert "nx: Adjust override prop key names"
+- nx: rename frig to fric
+- nx: init: reformat and update for accuracy
+- nx: migrate most prebuilts to blueprint
+- nx: rework bcm makefile again
+- nx: Fix joycon_ini parsing error
+- nx: Correct if logic in uscript
+- nx: Flash bootloader unconditionally
+- nx: Stop telling the user if USB3 is enabled
+- manifests: Rename 9 to 202404
+- Support building u-boot
+- extract: Support extracting blob from google ota's
+- nx: properly disable sw watchdog and use max77
+- nx: properly and fully disable carveouts
+- bq2419x: properly set irq type
+- exfat: Lower kernel version check for `exfat_getattr` from 4.11 to 4.9
+- bl33: update to 0d3a9234
+- bl33: update to v10_23_2024
+
 ===== 10-13-2024 =====
 - Update to crDroid 10.9
 - nx: Set proper settings for new fmac
