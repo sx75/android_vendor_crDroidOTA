@@ -4,6 +4,8 @@ maintainer: swiitchOFF
 
 Changelog:18/11/2024
 - Source upstream to 10.10
+- Improved Auto Brightness
+- Add back sensorscalibrate HAL and blobs
 - Switched to XiaomiDolby interface
 - Add dolby volume listener
 - Add support for Dolby spatial audio
