@@ -4,23 +4,38 @@ Device: OnePlus 7T (hotdogb)
 Device maintainer: Hasan Okarci (frazerecho)
 
 
+===== 20241117 =====
+- Initial crDroid 10.10 release
+- November security patches
+- Fixed Play Integrity
+- UdfpsAnimation: Address memory leaks and improvements
+- QuickSpaceView: Prevent memory leaks
+- MemInfoView: Fix free memory calculation
+- Added option to allow tuning extra padding for statusbar
+- Fixed crash with pulse visualizer in some instances
+- Added customization to select action when swiping up from bottom corner (crDroid Settings > Navigation)
+- Added customization to hide carrier on lockscreen (crDroid Settings > Lockscreen)
+- Some other small changes
+- Updated translations
+
+
 ===== 20241020 =====
-* Initial crDroid 10.9 release
-* October security patches
-* Kernel: update to 4.14.353
-* Kernel: other minor changes
-* SystemUI: Implement bouncer face unlock animation
+- Initial crDroid 10.9 release
+- October security patches
+- Kernel: update to 4.14.353
+- Kernel: other minor changes
+- SystemUI: Implement bouncer face unlock animation
 - SystemUI: Tune wifi standard icon margins
-* Updates for pure black theming
-* lmkd: Use free memory and file cache thresholds
+- Updates for pure black theming
+- lmkd: Use free memory and file cache thresholds
 - PixelPropsUtils: Updated fingerprint to oriole
-* Fixed Play Integrity and RCS messaging
-* Fixed some more memory leaks
-* Fixed issue that prevented boot on clean flash
-* Fixed launcher hotseat icons overflowing in landscape mode
-* Improved theming for light mode on quick settings
-* Sound on notification changes
-* Update Chromium Webview to 129.0.6668.70
+- Fixed Play Integrity and RCS messaging
+- Fixed some more memory leaks
+- Fixed issue that prevented boot on clean flash
+- Fixed launcher hotseat icons overflowing in landscape mode
+- Improved theming for light mode on quick settings
+- Sound on notification changes
+- Update Chromium Webview to 129.0.6668.70
 - Removed certificate chain for hardware attestation
 - Fixed possible memory leak in WiFi
 - More improvements for three finger swipe
