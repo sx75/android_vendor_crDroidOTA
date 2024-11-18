@@ -7,6 +7,9 @@ Device: Samsung Galaxy A70 (a70q)
 Device maintainer: manty
 
 
+===== 2024-11-18 =====
+Update to crDroid 10.10 (Nov 2024 ASB)
+
 ===== 2024-10-14 =====
 Update to crDroid 10.9 (Oct 2024 ASB)
 
