@@ -3,11 +3,16 @@ Build type: Monthly
 Device: Samsung Galaxy A10 (a10)
 Device maintainer: Masood
 
+===== 18 November, 2024 =====
+- November Security Patch
+- Update to crdroid v10.10 source code
+
+===== 16 October, 2024 =====
+- October Security Patch
+- Update to crdroid v10.9 source code
+- Fixed Flashlight Dim
+
 ===== 25 September, 2024 =====
 - September Security Patch
 - Update to crdroid v10.8 source code
 
-===== 16 October, 2024 =====
-- October Security Patch
-- Update to crdroid v10.8 source code
-- Fixed Flashlight Dim
