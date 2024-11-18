@@ -3,6 +3,9 @@ Build type: Monthly
 Device: Samsung Galaxy A20 (a20)
 Device maintainer: Ivy (Lost-Entrepreneur439)
 
+===== 11-17-2024 =====
+- Update to crDroid 10.10
+
 ===== 10-14-2024 =====
 - Update to crDroid 10.9
 - app: FlashControl: Fix possible crash on create
