@@ -3,6 +3,14 @@ Build type: Monthly
 Device: POCO F3 (alioth)
 Device maintainer: raystef66
 
+===== 22-11-2024 =====
+
+* crDroid 10.10 release
+* Updated to sec. patch level 2024.11
+* Synced with latest sources
+* Updated translations
+* Some other fixes and improvements
+
 ===== 15-11-2024 =====
 
 * Updated to sec. patch level 2024.11
