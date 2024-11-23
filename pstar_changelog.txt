@@ -3,6 +3,10 @@ Build type: Monthly
 Device: Moto Edge 20 Pro (pstar)
 Device maintainer: vulkan
 
+===== 23-11-2024 =====
+- last update
+before android 15
+
 ===== 23-10-2024 =====
 - drop KSU for now
 - enable zram writeback
