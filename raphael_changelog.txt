@@ -1,6 +1,72 @@
 ====================
+     11-24-2024
+====================
+
+   * device/xiaomi/raphael
+57ef75e9 raphael: KProfiles
+
+   * packages/apps/Launcher3
+b591ec3bae New translations (#456)
+
+   * packages/apps/crDroidSettings
+47b8fbe New Crowdin updates (#1197)
+
+====================
+     11-23-2024
+====================
+
+   * kernel/xiaomi/sm8150
+2f3c2b27cd009 defconfig/makefile: Remove kernel names
+
+====================
+     11-22-2024
+====================
+
+====================
+     11-21-2024
+====================
+
+====================
+     11-20-2024
+====================
+
+   * device/xiaomi/raphael
+78e54449 raphael: Add back prebuilt camera blobs
+36ea5d8a raphael: Add 786 Adreno driver from @LyNcHP1N
+cc06371a raphael: Update ImsRcs package
+f92044c0 raphael: Include ImsRcsService
+e3f8c62b raphael: Add if-exist to camera call
+ca8b8903 raphael: Mark CNE symlink target as required package
+
+   * vendor/xiaomi/raphael
+82c410e raphael: Add back prebuilt camera blobs
+5ff03a7 raphael: Add Adreno driver from @LyNcHP1N
+
+====================
+     11-19-2024
+====================
+
+   * prebuilts/clang/host/linux-x86/clang-latest
+7f89d01 Update hwasan binaries for libc++ from build# 12655470
+
+====================
+     11-18-2024
+====================
+
+   * packages/apps/DeskClock
+057796bb5 DeskClock: Fix screensaver style
+71a0d6e52 DeskClock: Fix display of AM/PM on screensaver
+6ee1cde01 DeskClock: Add preview image to screensaver
+
+   * packages/apps/GameSpace
+d88d425 GameSpace: Prevent duplicate instances of gamebar
+
+====================
      11-17-2024
 ====================
+
+   * device/xiaomi/raphael
+69ce58be raphael: Declare IMS libs as symlinks during extraction
 
    * lineage-sdk
 b72a9802 lineage-sdk: Allow to customize bottom corner swipe up action [3/4]
@@ -48,6 +114,9 @@ aa5901c Ship as crDroid based on LOS
 305ae7df overlay: Clean up gms specific overlays
 9ec808d6 overlay: update configs for AiAi
 
+   * vendor/xiaomi/raphael
+ba9aa6f raphael: Sync with dt
+
 ====================
      11-16-2024
 ====================
@@ -60,6 +129,20 @@ aa5901c Ship as crDroid based on LOS
 
    * device/lineage/sepolicy
 d6eda2c Merge 'lineage-21.0' into 14.0
+
+   * device/xiaomi/raphael
+872bc963 raphael: DISABLE_DEPS of libOmxVideoDSMode.so
+f67e7856 raphael: Remove prebuilt mlipay files
+6bf20e00 raphael: Remove prebuilt camera files
+85970d67 raphael: Fix goodix_fod soname
+d58b65bb raphael: Add missing libs
+edee892e raphael: Disable ELF checks for certain libraries
+3a61955a raphael: Remove elf files in copy files check
+0bad4748 raphael: Remove BOARD_USES_ALSA_AUDIO := true
+8a018a5d raphael: sync proprietary-files with vendor
+0f2da982 raphael: Skip dependencies which aren't defined in .bp
+11baec8c raphael: Append `_vendor` to conflicting vendor libs
+9e71fa68 raphael: Add vendor soong imports to extract
 
    * frameworks/base
 503b0340eddf Ignore null action in BinaryTransparencyService$PackageUpdatedReceiver
@@ -1021,6 +1104,14 @@ a3102874 crdroid: Add changelog script
    * vendor/qcom/opensource/commonsys/fm
 138a1be Automatic translation import
 
+   * vendor/xiaomi/raphael
+828d56c raphael: Fix goodix_fod soname
+2b18742 raphael: move NFC lib "libsn100u_fw.so" to vendor/64
+468ac3b raphael: Remove vendor.xiaomi.hardware.mlipay@1.0.so
+185649d raphael: Remove vendor.qti.hardware.perf@2.0.so
+f749853 raphael: Remove prebuilt camera files
+06b4547 raphael: sync with dt and add missing libs
+
 ====================
      11-15-2024
 ====================
@@ -1036,80 +1127,4 @@ b88b734 New Crowdin updates (#98)
 
    * packages/apps/crDroidSettings
 00462df New Crowdin updates (#1195)
-
-====================
-     11-14-2024
-====================
-
-====================
-     11-13-2024
-====================
-
-   * packages/apps/Settings
-bd2f8fab45b Fix background data clobbering other policies
-
-====================
-     11-12-2024
-====================
-
-   * device/lineage/atv
-4ddb44d atv: init: Allow opt-out of forced 1080p scaling
-
-====================
-     11-11-2024
-====================
-
-   * build/release
-137f003 Bump Security String to 2024-11-01
-
-   * device/qcom/sepolicy_vndr/legacy-um
-338029e10 fixup! Remove vendor_service.
-
-   * frameworks/base
-4849cf767c10 SystemUI: Add support for udfps dim layer
-a389ceb8e61e SystemUI: Remove udfps fwk dimming support
-2744c92a0e19 BACKPORT: Clear icons for app/ime keyboard shortcuts in shortcut helper.
-57d008fda4dc Merge tag 'android-security-14.0.0_r14' of https://android.googlesource.com/platform/frameworks/base into lineage-21.0
-
-   * frameworks/native
-4249f5a0e6 surfaceflinger: Allow ZOrder override for UDFPS dim layer
-
-   * vendor/lineage
-9d4e2471 vars: Update qcom tags
-
-====================
-     11-10-2024
-====================
-
-   * frameworks/base
-6886e3010c25 fixup! Implement firewall status bar indicator
-
-   * packages/apps/GameSpace
-3e8a2ba New Crowdin updates (#97)
-
-   * packages/apps/crDroidSettings
-f9fb91c New Crowdin updates (#1193)
-
-====================
-     11-09-2024
-====================
-
-   * packages/apps/GameSpace
-e41011b New translations (#96)
-
-   * packages/apps/crDroidSettings
-f9416e2 New Crowdin updates (#1191)
-
-   * vendor/lineage
-2eb893f7 lineage: config: Allow using an env var to enable insecure ADB
-
-====================
-     11-08-2024
-====================
-
-   * packages/apps/Recorder
-e223eb3 Recorder: grant read permissions for apps requesting recordings
-
-   * packages/apps/Settings
-d39a013d666 Settings: Remove navigation bar IME space toggle if taskbar enabled
 
