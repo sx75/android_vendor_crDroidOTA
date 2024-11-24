@@ -3,6 +3,11 @@ Build type: Monthly
 Device: Redmi 4A/5A (rova)
 Device maintainer: Max (iusmac)
 
+===== 23/11/2024 =====
+- Synced with crDroid 10.10 sources (November security patches).
+- Some minor fixes and improvements
+- Updated translations
+
 ===== 15/10/2024 =====
 - Synced with crDroid 10.9 sources (October security patches).
   Read official changelog:
