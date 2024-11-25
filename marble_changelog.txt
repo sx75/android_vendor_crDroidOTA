@@ -3,6 +3,9 @@ Build type: Monthly
 Device: Pocophone F5 (marble)
 Device maintainer: Chaitanya
 
+===== 25 November, 2024 =====
+- synced with latest 10.10 source
+
 ===== 15 November, 2024 =====
 - switch to old display drivers to fix touch releated issues
 
