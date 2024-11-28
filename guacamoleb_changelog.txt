@@ -1,94 +1,73 @@
+====================
+     11-28-2024
+====================
 
-Highlights & Device Specific Changes:
-Build type: Monthly
-Device: OnePlus 7 (guacamoleb)
-Device maintainer: Nora (eepymeowers)
-Required firmware: OxygenOS 12
+   * hardware/oplus
+387d075 sepolicy: qti: Allow sensors to read /proc/oplusVersion/*
 
-===== 10-24-2024 =====
-- Update to crDroid 10.9
-- Maintainership transferred from Ivy (Lost-Entrepreneur439) to Nora (eepymeowers)
+   * packages/apps/Launcher3
+eab28d6 New translations cr_strings.xml (Italian) (#459)
 
-===== 09-15-2024 =====
-- Update to crDroid 10.8.
-- Some changes to Play Integrity signing, due note that due to this, OTA won't work, use recovery to update.
-- Sync extract scripts with templates
-- Add PANEL_IOCTL_GET_DIMLAYER_BL_EN ioctl
-- Build libbatterylistener from source
-- Declare IMS libs as symlinks during extraction
-- Mark CNE symlink target as required package
-- Declare EGL libs as symlinks during extraction
-- Add libsecureui_svcsock.so and its dependencies
-- Return to stock IMS system stack
-- Drop unneeded firmware files
-- chmod 755 proprietary/*/bin/hw/*
-- Regenerate without XML fixup
-- Add xml suffix to prebuilt_etc_xml modules
-- Move media codecs configuration to the device tree
-- Remove software OMX blobs
-- Fix alignment in file_contexts
-- Get rid of system/vendor support
-- Add SPDX license header to Android.bp
-- Implement sensors.ssc wrapper that strips custom flag support
-- Label jiiov_fp and add rules for fp calibration data
-- Add Nord N20 wakeup nodes
-- Sort labels for wakeup nodes
-- Label silead_fp and some of its properties
-- Label more SM6375 wakeup nodes
-- Label persist.sys.bt.a2dp.pendingtime
-- Label SM8450 wakeup nodes
-- Address oplus_scheduler denials
-- Label ro.build.oplus_nv_id
-- Label ro.hardware.chipname and ro.oppo.market.
-- Add vendor.oplus.hardware.osense.client V1
-- Introduce vendor.oplus.hardware.osense.client-service
-- Label vendor.oplus.hardware.osense.client-service
-- Introduce common device framework matrix
-- Introduce oplus-fwk
-- Return Void() on finger press for uff fingerprint HAL
-- OplusFeatureConfigManager: Add virtual method hasFeature
-- Automatic translation import
+====================
+     11-27-2024
+====================
 
-===== 08-11-2024 =====
-- Fix Play Integrity signing
+   * frameworks/base
+a85a44d63 New Crowdin updates (#1182)
 
-===== 08-11-2024 =====
-- Update to crDroid 10.7
+   * packages/apps/crDroidSettings
+aebbead New translations (#1199)
 
-===== 07-22-2024 =====
-- Minor bug fixes
-- hidl: fingerprint: Add dummy keylayout for goodix FP
-- sepolicy: qti: Move some wakeup genfscon to qcom sepolicy
-- sepolicy: qti: Move SM6375 wakeup nodes to qcom sepolicy
+====================
+     11-26-2024
+====================
 
-===== 07-07-2024 =====
-- Update to crDroid 10.6
-- Builds are now signed. Do note due to this change, OTA will not work for upgrading from 10.5 to 10.6. Update using recovery.
-- Automatic translation import
-- Move to common power-libperfmgr
-- Use bluetooth.audio@2.1
-- Switch BtAudio to AIDL
-- Disable the usage of ConfigStore.
-- Set manifest target-level to 5
-- Build missing libraries for 14 QPR3
-- Convert packages disallowed to use aux cameras to prop
-- Disable continuous transaction tracing on all build types
-- Don't latch unsignal buffers
-- Disable SF client composition cache
-- Remove wait_for_keymaster and all references
-- Move to new RFS install_symlink targets
-- Convert WiFi firmware symlinks to install_symlink targets
-- Convert ADSP AVS config symlink to install_symlink target
-- Unset BUILD_BROKEN_INCORRECT_PARTITION_IMAGES
-- Drop unneeded firmware files
-- Several kernel updates, too many to list.
-- Remove libqti-perfd-client
+   * prebuilts/clang/host/linux-x86/clang-latest
+737c849 Update prebuilt Clang to r536225 (19.0.1).
 
-===== 05-12-2024 =====
-- Update to crDroid 10.5
-- Set parameters for new ALS compensation algorithm 
-- Implement new ALS compensation algorithm
-- Several kernel updates, too many to list.
+====================
+     11-25-2024
+====================
 
-===== 04-24-2024 =====
-- Initial release
+====================
+     11-24-2024
+====================
+
+====================
+     11-23-2024
+====================
+
+====================
+     11-22-2024
+====================
+
+   * external/chromium-webview/prebuilt/arm
+74fa86e Update Chromium Webview arm prebuilt to 131.0.6778.81
+
+   * external/chromium-webview/prebuilt/arm64
+9386301 Update Chromium Webview arm64 prebuilt to 131.0.6778.81
+
+   * external/chromium-webview/prebuilt/x86
+3c87302 Update Chromium Webview x86 prebuilt to 131.0.6778.81
+
+   * external/chromium-webview/prebuilt/x86_64
+9853f9c Update Chromium Webview x86_64 prebuilt to 131.0.6778.81
+
+====================
+     11-21-2024
+====================
+
+   * external/chromium-webview/patches
+4c757e7 Update Chromium Webview to 131.0.6778.81
+
+====================
+     11-20-2024
+====================
+
+====================
+     11-19-2024
+====================
+
+   * packages/apps/DeskClock
+057796b DeskClock: Fix screensaver style
+
