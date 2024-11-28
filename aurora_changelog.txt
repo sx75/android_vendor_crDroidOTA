@@ -4,6 +4,10 @@ Device: Sony Xperia XZ2 Premium (aurora)
 Device maintainer: Nora (eepymeowers)
 Required firmware: Android 10
 
+===== 11-28-2024 ====
+-Update to 10.10
+-Sorry everyone for missing a update! My build environment was refusing to build for aurora and I hadn't figured it out in time. This will likely be the final crDroid 10 build for this device, as next up is crDroid 11 betas!
+
 ===== 09-18-2024 ====
 -Update to 10.8
 Other changes in this release:
