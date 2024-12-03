@@ -4,6 +4,20 @@ Device: Realme GT Master edition
 Device maintainer: Sid 🖤
 Required firmware: Rui F.18 [RMX3360_13.1.0.161(EX01)]
 
+===== 02 December, 2024 =====
+
+- Initial crDroid 10.10 release
+- November security patches
+- UdfpsAnimation: Address memory leaks and improvements
+- QuickSpaceView: Prevent memory leaks
+- MemInfoView: Fix free memory calculation
+- Some other small changes
+- Updated translations
+
+Device side :
+
+- Upstreamed kernel to 5.4.284
+
 ===== 02 November, 2024 =====
 
 - Fixed Play Integrity (soon to die I guess)
